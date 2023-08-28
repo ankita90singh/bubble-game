@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient( rgb(191, 245, 245) ,  rgb(162, 249, 249) ,  rgb(149, 250, 250));
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 85%; 
+  background: radial-gradient(#fff,#faf2f2,#fcf0f0);
+    border-radius: .4vw;
+}
+
+#ptop{
+   padding: .3vw 30%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 3.5vw;
+    background-color: rgb(77, 155, 155);
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  
+  
+}
+.elem h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.box{
+    color: rgb(26, 123, 123);
+    font-weight: 600;
+   font-size: 1.1vw;
+  padding: .6vw 1.4vw;
+    background-color: #fff;
+    border-radius: .4vw;
+   
+}
+
+#pbottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    font-size: 4vw;
+    font-weight: 900;
+    color: rgb(165, 4, 4);
+    flex-wrap: wrap;
+    padding: 1vw;
+    width: 100%;
+    height: calc(100% - 3.5vw);
+
+}
+
+
+#bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.1vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: rgb(26, 123, 123);
+    color: #fff;
+}
+#bubble:hover{
+    cursor: pointer;
+    background-color:  rgb(5, 83, 83);
+}
